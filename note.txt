@@ -1,0 +1,40 @@
+git init
+git add .
+git commit -m "Initial Commit"
+
+git remote add origin https://github.com/devayan851989/ReactAppWithActions.git
+git push --set-upstream origin master
+
+git init
+git add .
+git commit -m "Initial Commit"
+git push --set-upstream origin master
+
+---------------------------------
+
+git lfs track "*.mp4"
+git add .gitattributes
+git commit -m "track *.psd files using Git LFS"
+git lfs ls-files
+
+git add .
+git commit -m "add .mp4"
+
+$ git lfs migrate import --include="*.mp4" --everything
+
+$ git lfs ls-files
+
+git remote add origin https://github.com/devayan851989/git_lfs_test.git
+git push --set-upstream origin master
+
+git push origin main
+
+----------------------------
+
+
+git lfs migrate import --include="*.jpg,largefiles/*.xml" --include-ref=refs/heads/master
+
+prune your Git LFS content with the following command: git lfs prune
+
+
+ git lfs track "largefiles/*.xml"
